@@ -1,0 +1,1605 @@
+{
+  "Policy": {
+    "context": {
+      "effectiveDate": "2020-04-08",
+      "sourceSystem": "E1P-PC",
+      "jobType": "PolicyChange",
+      "sliceDate": "2020-04-08",
+      "rateAsOfDate": "2020-03-31",
+      "jobNumber": "0000000135",
+      "accountNumber": "7124513584",
+      "policyType": "HO3",
+      "partnerNumber": "AFI",
+      "productLine": "EHLine_Ext",
+      "jobSubType": "Submission",
+      "isRefresh": false
+    },
+    "dataIdentifier": {
+      "sourceSystem": "E1PC",
+      "productLine": "TBD-PL?",
+      "policyType": "PPA",
+      "partnerID": "529",
+      "partnerAccountNumber": "52910",
+      "uwCompanyCode": "GDMIC"
+    },
+    "policySlice": {
+      "policyLine": "EHLine_Ext",
+      "effectiveDate": "2020-03-21",
+      "uwcompanyCode": "GDMIC",
+      "offeringCode": "EH_MSA_Offering1",
+      "ratingDate": "${Input#ratingDate}",
+      "rateAsOfDate": "${Input#ratingDate}",
+      "baseState": "WI",
+      "jobType": "Submission",
+      "jobNumber": "0000097796",
+      "branchId": "601",
+      "policyType": "HO3",
+      "partnerId": "AFI",
+      "sliceStartDate": "2020-03-21",
+      "termStartDate": "2020-03-21",
+      "termEndDate": "2021-03-21",
+      "isFullApp": true,
+      "jobData": {},
+      "externalReferences": [
+        {
+          "key": "510b5212-9a44-4e32-b7e8-f8d41f85c4db",
+          "type": "autoloss1",
+          "uri": "/translatedautolosses/510b5212-9a44-4e32-b7e8-f8d41f85c4db"
+        },
+        {
+          "key": "ff00179f-d1af-4f9b-81fb-192c8eddc44b",
+          "type": "geo",
+          "uri": "msa/property/ff00179f-d1af-4f9b-81fb-192c8eddc44b"
+        }
+      ],
+      "lobDataDTO": {
+        "type": "EHLobData",
+        "coverables": {
+          "householdOccupants": [
+            {
+              "fixedId": 602,
+              "publicID": "e1p-pc:602",
+              "person": {
+                "firstName": "Josh",
+                "lastName": "Urbanek",
+                "dateOfBirth": {
+                  "year": 1993,
+                  "month": 7,
+                  "day": 4
+                },
+                "displayName": "Josh Urbanek",
+                "publicID": "e1p-pc:1584536803274",
+                "contactAddresses": [],
+                "addressBookUID": "AB1005",
+                "primaryAddress": {
+                  "usagePurposes": [
+                    {
+                      "addressUsage": "mailing",
+                      "addressPurpose": "primary"
+                    },
+                    {
+                      "addressUsage": "residential",
+                      "addressPurpose": "primary"
+                    }
+                  ],
+                  "state": "WI",
+                  "country": "US",
+                  "displayName": "822 E Washington Ave, Madison, WI 53718",
+                  "publicID": "e1p-pc:3301",
+                  "city": "Madison",
+                  "postalCode": "53718",
+                  "addressLine1": "822 E Washington Ave",
+                  "addressType": "home"
+                },
+                "partnerCode": "AFI"
+              }
+            }
+          ],
+          "construction": {
+            "insideWallMaterials": [],
+            "yearHeatingInstalledOrUpdated": 2012,
+            "yearRoofInstalled": "2020",
+"isStoveInstalledByLicensedContractor": "yes",
+"numberOfRoomsWithCathedralVaultedCeilings": 0,
+"kitchenCounterTopType": "graniteormarble",
+"yearPlumbingInstalledOrUpdated": 2012,
+"numberOfFullBaths": 2,
+"isOilTankRemoved": "yes",
+"numberOfHalfBaths": 1,
+"homeProtectionDevices": [
+{
+"fixedId": 1,
+"deviceCategory": "security",
+"deviceType": "centrallymonitoredburglaralarmsystem",
+"deviceName": "burglar alarm"
+}
+],
+"yearWiringInstalledOrUpdated": 2012,
+"firePlaces": [],
+"hasWoodOrCoalStove": true,
+"constructionType": "frame",
+"currentOilTankLocation": "insideoncement",
+"exteriorWallFinish": "aluminumsiding",
+"ceilingHeightType": "9feet",
+"hasCircuitBreaker": false,
+"garages": [],
+"oilTankLocation": "insidenotoncement",
+"heatingSystems": [
+{
+"fixedId": 103,
+"isPrimary": true,
+"heatingType": "propanehotair"
+},
+{
+"fixedId": 101,
+"isPrimary": false,
+"heatingType": "wood"
+}
+],
+"numberOfStories": "1.5",
+"roofShape": "flat",
+"roofType": "${Input#roofType}",
+"coolingSystems": [],
+"dwellingType": "SingleFamilyHome",
+"floors": [],
+"foundationType": "crawlspace",
+"isFlatRoof": false,
+"slopeType": "no",
+"styleOfHome": "adobe",
+"yearBuilt": "2020",
+"totalSquareFeet": 1500,
+"isHeatedByOil": true
+},
+"yourHome": {
+"hasDogLicensed": false,
+"homeBusiness": {},
+"yearPurchased": 2015,
+"hasFerretInHome": false,
+"hasCatInHome": false,
+"replacementCost": 150000.00,
+"hasDogInHome": false,
+"hasAnimalBitten": false,
+"hasSnakeInHome": false,
+"hasExoticAnimalInHome": false,
+"isOwnerOccupiedIn60Days": false,
+"additionalPremises": [],
+"dwellingUsageType": "primary",
+"hasUnitRentalToOthers": false,
+"hasNonDomesticCatInHome": false,
+"ehlocation": {
+"publicID": "e1p-pc:1",
+"country": "US",
+"city": "ORLANDO",
+"postalCode": "32821-3233",
+"state": "${Input#stateCode}",
+"spatialPoint": {
+"latitude": 43.082119,
+"longitude": -89.374876
+},
+"addressLine1": "8223 VINELAND AVE"
+}
+}
+},
+"offerings": [
+{
+"branchName": "Version #1",
+"branchCode": "EH_MSA_Offering1",
+"coverages": {
+"schedules": [
+{
+"deserializationClass": "edge.capabilities.policycommon.coverage.schedule.dto.patterns.SimpleScheduledItemDTO",
+"patternName": "EH_ScheduledPersonalPropertyItem",
+"propertyInfos": [
+{
+"availableTypeListValues": [
+{
+"priority": -1,
+"code": "bicycleaccessories",
+"displayKey": "Bicycle Accessories"
+},
+{
+"priority": -1,
+"code": "bicycles",
+"displayKey": "Bicycles"
+},
+{
+"priority": -1,
+"code": "cameras",
+"displayKey": "Cameras, Projection Machines, Films, And Related Articles Of Equipment"
+},
+{
+"priority": -1,
+"code": "camerasaccessories",
+"displayKey": "Cameras, Projection Machines, Films, And Related Articles Of Equipment Accessories"
+},
+{
+"priority": -1,
+"code": "collectableitemsother",
+"displayKey": "Collectable Items - Other"
+},
+{
+"priority": -1,
+"code": "collectableitemsotherblanket",
+"displayKey": "Collectable Items - Other (blanket)"
+},
+{
+"priority": -1,
+"code": "collectableitemsotherincludesbreakage",
+"displayKey": "Collectable Items - Other (includes breakage)"
+},
+{
+"priority": -1,
+"code": "collectableitemsotherincludesbreakageblanket",
+"displayKey": "Collectable Items - Other (includes breakage) (blanket)"
+},
+{
+"priority": -1,
+"code": "collectableitemspostagestamps",
+"displayKey": "Collectable Items - Postage Stamps"
+},
+{
+"priority": -1,
+"code": "collectableitemspostagestampsblanket",
+"displayKey": "Collectable Items - Postage Stamps (blanket)"
+},
+{
+"priority": -1,
+"code": "collectableitemsrareandcurrentcoins",
+"displayKey": "Collectable Items - Rare And Current Coins"
+},
+{
+"priority": -1,
+"code": "collectableitemsrareandcurrentcoinsblanket",
+"displayKey": "Collectable Items - Rare and Current Coins (blanket)"
+},
+{
+"priority": -1,
+"code": "computer",
+"displayKey": "Computer Hardware, Software, And Home Electronics"
+},
+{
+"priority": -1,
+"code": "fineartsandantiques",
+"displayKey": "Fine Arts And Antiques"
+},
+{
+"priority": -1,
+"code": "finesrtsandantiquesincludesbreakage",
+"displayKey": "Fine Arts And Antiques (Includes Breakage)"
+},
+{
+"priority": -1,
+"code": "firearmsandaccessories",
+"displayKey": "Firearms And Accessories"
+},
+{
+"priority": -1,
+"code": "firearmsandaccessoriesaccessories",
+"displayKey": "Firearms And Accessories (Accessories)"
+},
+{
+"priority": -1,
+"code": "fursandgarments",
+"displayKey": "Furs And Garments"
+},
+{
+"priority": -1,
+"code": "golfersequipment",
+"displayKey": "Golfer's Equipment"
+},
+{
+"priority": -1,
+"code": "golfersequipmentblanket",
+"displayKey": "Golfer's Equipment (blanket)"
+},
+{
+"priority": -1,
+"code": "jewelry",
+"displayKey": "Jewelry"
+},
+{
+"priority": -1,
+"code": "medicaldevices",
+"displayKey": "Medical Devices"
+},
+{
+"priority": -1,
+"code": "medicaldevicesincludesbreakage",
+"displayKey": "Medical Devices (includes breakage)"
+},
+{
+"priority": -1,
+"code": "miscellaneouspersonalproperty",
+"displayKey": "Miscellaneous Personal Property"
+},
+{
+"priority": -1,
+"code": "music",
+"displayKey": "Music"
+},
+{
+"priority": -1,
+"code": "musicalinstumentsaccessories",
+"displayKey": "Musical Instuments Accessories"
+},
+{
+"priority": -1,
+"code": "musicalinstumentsnotplayedforbusiness",
+"displayKey": "Musical Instuments Not Played For Business"
+},
+{
+"priority": -1,
+"code": "musicalinstumentsplayedforbusiness",
+"displayKey": "Musical Instuments Played For Business"
+},
+{
+"priority": -1,
+"code": "silverwaregoldwareplatinumwareandpewterware",
+"displayKey": "Silverware, Goldware, Platinumware, And Pewterware"
+},
+{
+"priority": -1,
+"code": "softwareblanket",
+"displayKey": "Software Blanket Coverage"
+},
+{
+"priority": -1,
+"code": "sportsequipment",
+"displayKey": "Sports Equipment"
+},
+{
+"priority": -1,
+"code": "sportsequipmentaccessories",
+"displayKey": "Sports Equipment Accessories"
+},
+{
+"priority": -1,
+"code": "toolsandequipment",
+"displayKey": "Tools And Equipment"
+},
+{
+"priority": -1,
+"code": "toolsandequipmentblanket",
+"displayKey": "Tools And Equipment (blanket)"
+}
+],
+"id": "EH_ScheduledPersonalProperty_ItemType",
+"label": "Type",
+"required": false,
+"valueType": "TYPEKEY",
+"editable": true,
+"order": 5
+},
+{
+"id": "EH_ScheduledPersonalProperty_ItemValue",
+"label": "Value",
+"required": false,
+"valueType": "INTEGER",
+"editable": true,
+"currency": "usd",
+"order": 10
+},
+{
+"id": "EH_ScheduledPersonalProperty_ItemArticle",
+"label": "Article",
+"required": false,
+"valueType": "STRING",
+"editable": true,
+"order": 15
+},
+{
+"id": "EH_ScheduledPersonalProperty_ItemDescription",
+"label": "Description",
+"required": true,
+"valueType": "STRING",
+"editable": true,
+"order": 20
+},
+{
+"id": "EH_ScheduledPersonalProperty_ItemCertificate",
+"label": "Certification",
+"required": false,
+"valueType": "BOOLEAN",
+"editable": true,
+"order": 25
+}
+],
+"scheduleItems": []
+},
+{
+"deserializationClass": "edge.capabilities.policycommon.coverage.schedule.dto.patterns.SimpleScheduledItemDTO",
+"patternName": "EH_ScheduledStructuresCovBItem",
+"propertyInfos": [
+{
+"availableTypeListValues": [
+{
+"priority": -1,
+"code": "animalshelterenclosed",
+"displayKey": "Animal Shelter - Enclosed (other than a barn or stable)"
+},
+{
+"priority": -1,
+"code": "animalshelteropen",
+"displayKey": "Animal Shelter - Open"
+},
+{
+"priority": -1,
+"code": "garagedetachedwithliving",
+"displayKey": "Garage - Detached with Living Quarters - Not Rented to Others"
+},
+{
+"priority": -1,
+"code": "garagedetachedwithoutliving",
+"displayKey": "Garage - Detached without Living Quarters"
+},
+{
+"priority": -1,
+"code": "greenhousedetached",
+"displayKey": "Greenhouse - Detached"
+},
+{
+"priority": -1,
+"code": "hottuboutdooringround",
+"displayKey": "Hot Tub - Outdoor In-Ground"
+},
+{
+"priority": -1,
+"code": "other",
+"displayKey": "Other"
+},
+{
+"priority": -1,
+"code": "outdoorpoolabovegrnd",
+"displayKey": "Pool - Outdoor Above Ground"
+},
+{
+"priority": -1,
+"code": "outdoorpoolingrnd",
+"displayKey": "Pool - Outdoor In-Ground"
+},
+{
+"priority": -1,
+"code": "poolhouse",
+"displayKey": "Pool House"
+},
+{
+"priority": -1,
+"code": "solarpanel",
+"displayKey": "Solar Panel - Detached"
+},
+{
+"priority": -1,
+"code": "outdoorspa",
+"displayKey": "Spa - Outdoor In-Ground"
+},
+{
+"priority": -1,
+"code": "stable",
+"displayKey": "Stable"
+},
+{
+"priority": -1,
+"code": "storageshedabove300",
+"displayKey": "Storage Shed greater than 300 square feet"
+},
+{
+"priority": -1,
+"code": "windgenerator",
+"displayKey": "Wind Generator"
+}
+],
+"id": "EH_ScheduledStructuresCovB_ScheduleDescription",
+"label": "Description",
+"required": false,
+"valueType": "TYPEKEY",
+"editable": true,
+"order": 5
+},
+{
+"id": "EH_ScheduledStructuresCovB_ScheduleOtherDescription",
+"label": "Other Description",
+"required": false,
+"valueType": "STRING",
+"editable": true,
+"order": 10
+},
+{
+"id": "EH_ScheduledStructuresCovB_ScheduleConstructionType",
+"label": "Construction Type",
+"required": false,
+"valueType": "STRING",
+"editable": true,
+"order": 15
+},
+{
+"id": "EH_ScheduledStructuresCovB_ScheduleGroundSquareFootage",
+"label": "Ground Square Footage",
+"required": false,
+"valueType": "INTEGER",
+"editable": true,
+"order": 20
+},
+{
+"id": "EH_ScheduledStructuresCovB_ScheduleHeight",
+"label": "Height",
+"required": false,
+"valueType": "STRING",
+"editable": true,
+"order": 25
+},
+{
+"id": "EH_ScheduledStructuresCovB_ItemLimit",
+"label": "Limit",
+"required": false,
+"valueType": "BIG_DECIMAL",
+"editable": true,
+"currency": "usd",
+"order": 30
+},
+{
+"availableTypeListValues": [
+{
+"priority": 200,
+"code": "Replacement",
+"displayKey": "Replacement Cost Value"
+},
+{
+"priority": 100,
+"code": "Actual",
+"displayKey": "Actual Cash Value"
+}
+],
+"id": "EH_ScheduledStructuresCovB_ItemValuationMethod",
+"label": "Valuation Method",
+"required": false,
+"valueType": "TYPEKEY",
+"editable": true,
+"order": 35
+}
+],
+"scheduleItems": []
+},
+{
+"deserializationClass": "edge.capabilities.policycommon.coverage.schedule.dto.patterns.SimpleScheduledItemDTO",
+"patternName": "EH_NamedPerilIncCovCItem",
+"propertyInfos": [
+{
+"availableTypeListValues": [
+{
+"priority": -1,
+"code": "electronicapparatusinmotorvehicle",
+"displayKey": "Electronic apparatus while in or upon a motor vehicle"
+},
+{
+"priority": -1,
+"code": "electronicapparatusnotinmotorvehicle",
+"displayKey": "Electronic apparatus while NOT in or upon a motor vehicle"
+},
+{
+"priority": -1,
+"code": "firearmsandrelatedequipment",
+"displayKey": "Firearms and related equipment, parts and accessories for loss by theft"
+},
+{
+"priority": -1,
+"code": "firearmsforlossbytheft",
+"displayKey": "Firearms for loss by theft"
+},
+{
+"priority": -1,
+"code": "flatwaretablewareplaquestrophies",
+"displayKey": "Flatware, tableware, plaques and trophies made or plated with silver, gold, platinum or pewter for loss by theft"
+},
+{
+"priority": -1,
+"code": "jewelrywatchesfurs",
+"displayKey": "Jewelry, watches, furs, precious and semiprecious stones for loss by theft"
+},
+{
+"priority": -1,
+"code": "moneybanknotesbullionchecks",
+"displayKey": "Money, bank notes, bullion, checks, money orders, negotiable instruments,    scrip, coins, medals, gold, silver, and platinum except flatware, tableware, plaques, and trophies made or plated with these materials, stored value cards and smart cards"
+},
+{
+"priority": -1,
+"code": "moneybanknotesbulliongold",
+"displayKey": "Money, bank notes, bullion, gold, silver, platinum, coins and medals"
+},
+{
+"priority": -1,
+"code": "rugsunattachedcarpetstapestries",
+"displayKey": "Rugs, unattached carpets, tapestries, or similar items for loss by theft"
+},
+{
+"priority": -1,
+"code": "securitiesstampsletterofcredit",
+"displayKey": "Securities, stamps, letter of credit"
+},
+{
+"priority": -1,
+"code": "silverwaregoldwarepewterware",
+"displayKey": "Silverware, Gold-ware, Pewter-ware for loss by theft"
+},
+{
+"priority": -1,
+"code": "stampssecuritiesaccountsdeeds",
+"displayKey": "Stamps, securities, accounts, deeds, evidences of debt, letters of credit,   notes except bank notes, manuscripts, personal records, passports and tickets"
+},
+{
+"priority": -1,
+"code": "toolstoolboxesbenches",
+"displayKey": "Tools, tool boxes, benches and cabinets for loss by theft"
+}
+],
+"id": "EH_NamedPerilIncCovC_ScheduleType",
+"label": "Type",
+"required": false,
+"valueType": "TYPEKEY",
+"editable": true,
+"order": 5
+},
+{
+"id": "EH_NamedPerilIncCovC_ItemLimit",
+"label": "Limit",
+"required": false,
+"valueType": "BIG_DECIMAL",
+"editable": true,
+"currency": "usd",
+"order": 10
+}
+],
+"scheduleItems": []
+}
+],
+"coverages": [
+{
+"name": "Itemized Personal Property",
+"required": false,
+"selected": false,
+"description": "Endorsement",
+"publicID": "EH_ScheduledPersonalProperty",
+"updated": false,
+"codeIdentifier": "EH_ScheduledPersonalProperty",
+"terms": [],
+"referenceCode": "ScheduledPersonalProperty",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EHLineAddGrp",
+"coverageCategoryDisplayName": "EHLine Additional Coverages",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Coverage F - Medical Expense",
+"required": false,
+"selected": false,
+"description": "Coverage F - Medical Expense",
+"publicID": "EH_MedicalExpenseCovF",
+"updated": false,
+"codeIdentifier": "EH_MedicalExpenseCovF",
+"terms": [],
+"referenceCode": "MedicalExpenseCovF",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_SectionII",
+"coverageCategoryDisplayName": "Section II Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Coverage E - Personal Liability",
+"required": true,
+"selected": true,
+"description": "Coverage E - Personal Liability",
+"publicID": "EH_PersonalLiabilityCovE",
+"updated": false,
+"codeIdentifier": "EH_PersonalLiabilityCovE",
+"amount": {
+"currency": "usd",
+"amount": 100.00
+},
+"terms": [
+{
+"isAscendingBetter": true,
+"patternCodeIdentifier": "EH_PersonalLiabilityCovE_Limit",
+"coveragePublicID": "zg6gsbq7cvqph37sj16q6dsvjpb",
+"chosenTermValue": "300,000",
+"chosenTerm": "zrrgcmkkn5bn05ll903rja4d7c9",
+"name": "Limit",
+"type": "OptionEH_PersonalLiabilityCovE_LimitType",
+"modelType": "Limit",
+"options": [
+{
+"name": "100,000",
+"code": "zpdioc1qsgots7she581nperi29",
+"maxValue": 5,
+"optionValue": 2
+},
+{
+"name": "300,000",
+"code": "zrrgcmkkn5bn05ll903rja4d7c9",
+"maxValue": 5,
+"optionValue": 3
+},
+{
+"name": "500,000",
+"code": "zrkiqlfhrpa9tcqpc4mluu7d4l8",
+"maxValue": 5,
+"optionValue": 5
+}
+],
+"required": true,
+"publicID": "EH_PersonalLiabilityCovE_Limit",
+"updated": false
+}
+],
+"referenceCode": "PersonalLiabilityCovE",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_SectionII",
+"coverageCategoryDisplayName": "Section II Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Business Pursuits",
+"required": false,
+"selected": false,
+"description": "Business Pursuits",
+"publicID": "EH_BusinessPursuits",
+"updated": false,
+"codeIdentifier": "EH_BusinessPursuits",
+"terms": [],
+"referenceCode": "BusinessPursuits",
+"hasTerms": false,
+"isValid": true,
+"coverageCategoryCode": "EH_OptionalLiability",
+"coverageCategoryDisplayName": "Optional Liability Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Outboard Motors and Watercraft",
+"required": false,
+"selected": false,
+"description": "Outboard Motors and Watercraft",
+"publicID": "EH_OutboardMotorsandWatercraft",
+"updated": false,
+"codeIdentifier": "EH_OutboardMotorsandWatercraft",
+"terms": [],
+"referenceCode": "OutboardMotorsandWatercraft",
+"hasTerms": false,
+"isValid": true,
+"coverageCategoryCode": "EH_OptionalLiability",
+"coverageCategoryDisplayName": "Optional Liability Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Owned Snowmobile",
+"required": false,
+"selected": false,
+"description": "Owned Snowmobile",
+"publicID": "EH_OwnedSnowmobile",
+"updated": false,
+"codeIdentifier": "EH_OwnedSnowmobile",
+"terms": [],
+"referenceCode": "OwnedSnowmobile",
+"hasTerms": false,
+"isValid": true,
+"coverageCategoryCode": "EH_OptionalLiability",
+"coverageCategoryDisplayName": "Optional Liability Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Identity Fraud Expense",
+"required": false,
+"selected": false,
+"description": "Endorsement",
+"publicID": "EH_IdentityFraudCov",
+"updated": false,
+"codeIdentifier": "EH_IdentityFraudCov",
+"terms": [],
+"referenceCode": "IdentityFraudCov",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_PersonalProtection",
+"coverageCategoryDisplayName": "Personal Protection",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Personal Injury",
+"required": false,
+"selected": false,
+"description": "Endorsement",
+"publicID": "EH_PersonalInjury",
+"updated": false,
+"codeIdentifier": "EH_PersonalInjury",
+"terms": [],
+"referenceCode": "PersonalInjury",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_PersonalProtection",
+"coverageCategoryDisplayName": "Personal Protection",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Business Property",
+"required": false,
+"selected": false,
+"description": "Endorsement",
+"publicID": "EH_BusinessPropertyCov",
+"updated": false,
+"codeIdentifier": "EH_BusinessPropertyCov",
+"terms": [],
+"referenceCode": "BusinessPropertyCov",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_HomeBusiness",
+"coverageCategoryDisplayName": "Home Business",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Additional Amounts of Insurance",
+"required": false,
+"selected": false,
+"description": "Additional Amounts of Insurance",
+"publicID": "EH_AddlAmtsofInsuranceCov",
+"updated": false,
+"codeIdentifier": "EH_AddlAmtsofInsuranceCov",
+"terms": [],
+"referenceCode": "AddlAmtsofInsuranceCov",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_OptionalProp",
+"coverageCategoryDisplayName": "Optional Property Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Special Computer Coverage",
+"required": false,
+"selected": false,
+"description": "Special Computer Coverage",
+"publicID": "EH_SpecialComputerCov",
+"updated": false,
+"codeIdentifier": "EH_SpecialComputerCov",
+"terms": [],
+"referenceCode": "SpecialComputerCov",
+"hasTerms": false,
+"isValid": true,
+"coverageCategoryCode": "EH_OptionalProp",
+"coverageCategoryDisplayName": "Optional Property Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Special Personal Property Coverage",
+"required": false,
+"selected": false,
+"description": "Special Personal Property Coverage",
+"publicID": "EH_SpecialPersonalPropertyCov",
+"updated": false,
+"codeIdentifier": "EH_SpecialPersonalPropertyCov",
+"terms": [],
+"referenceCode": "SpecialPersonalPropertyCov",
+"hasTerms": false,
+"isValid": true,
+"coverageCategoryCode": "EH_OptionalProp",
+"coverageCategoryDisplayName": "Optional Property Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Fire Department Service Charge",
+"required": false,
+"selected": false,
+"description": "Fire Department Service Charge",
+"publicID": "EH_FireDeptServiceCov",
+"updated": false,
+"codeIdentifier": "EH_FireDeptServiceCov",
+"terms": [],
+"referenceCode": "FireDeptServiceCov",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_AdditionalProp",
+"coverageCategoryDisplayName": "Additional Property Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Fungi Or Bacteria",
+"required": false,
+"selected": false,
+"description": "Fungi Or Bacteria",
+"publicID": "EH_FungiCov",
+"updated": false,
+"codeIdentifier": "EH_FungiCov",
+"terms": [],
+"referenceCode": "FungiCov",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_AdditionalProp",
+"coverageCategoryDisplayName": "Additional Property Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Loss Assessments",
+"required": false,
+"selected": false,
+"description": "Loss Assessments",
+"publicID": "EH_LossAssessCov",
+"updated": false,
+"codeIdentifier": "EH_LossAssessCov",
+"terms": [],
+"referenceCode": "LossAssessCov",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_AdditionalProp",
+"coverageCategoryDisplayName": "Additional Property Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Diminishing Deductible Credit",
+"required": false,
+"selected": false,
+"description": "Diminishing Deductible Credit",
+"publicID": "EH_DiminishingDeductibleCredit",
+"updated": false,
+"codeIdentifier": "EH_DiminishingDeductibleCredit",
+"terms": [],
+"referenceCode": "DiminishingDeductibleCredit",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_SectionI",
+"coverageCategoryDisplayName": "Section I Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Coverage A - Dwelling",
+"required": false,
+"selected": false,
+"description": "Coverage A - Dwelling",
+"publicID": "EH_DwellingCovA",
+"updated": false,
+"codeIdentifier": "EH_DwellingCovA",
+"terms": [],
+"referenceCode": "DwellingCovA",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_SectionI",
+"coverageCategoryDisplayName": "Section I Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Coverage D - Loss Of Use",
+"required": false,
+"selected": false,
+"description": "Coverage D - Loss Of Use",
+"publicID": "EH_LossOfUseCovD",
+"updated": false,
+"codeIdentifier": "EH_LossOfUseCovD",
+"terms": [],
+"referenceCode": "LossOfUseCovD",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_SectionI",
+"coverageCategoryDisplayName": "Section I Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Coverage B - Other Structures Blanket",
+"required": false,
+"selected": false,
+"description": "Coverage B - Other Structures Blanket",
+"publicID": "EH_OtherStructuresBlanketCovB",
+"updated": false,
+"codeIdentifier": "EH_OtherStructuresBlanketCovB",
+"terms": [],
+"referenceCode": "OtherStructuresBlanketCovB",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_SectionI",
+"coverageCategoryDisplayName": "Section I Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Coverage C - Personal Property",
+"required": false,
+"selected": false,
+"description": "Coverage C - Personal Property",
+"publicID": "EH_PersonalPropertyCovC",
+"updated": false,
+"codeIdentifier": "EH_PersonalPropertyCovC",
+"terms": [],
+"referenceCode": "PersonalPropertyCovC",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_SectionI",
+"coverageCategoryDisplayName": "Section I Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Coverage B - Scheduled Structures",
+"required": false,
+"selected": false,
+"description": "Coverage B - Scheduled Structures",
+"publicID": "EH_ScheduledStructuresCovB",
+"updated": false,
+"codeIdentifier": "EH_ScheduledStructuresCovB",
+"terms": [],
+"referenceCode": "ScheduledStructuresCovB",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_SectionI",
+"coverageCategoryDisplayName": "Section I Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Section I Deductibles",
+"required": false,
+"selected": false,
+"description": "Section I Deductibles",
+"publicID": "EH_SectionIDed",
+"updated": false,
+"codeIdentifier": "EH_SectionIDed",
+"terms": [],
+"referenceCode": "SectionIDed",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_SectionI",
+"coverageCategoryDisplayName": "Section I Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Coverage B - Unscheduled Structures",
+"required": false,
+"selected": false,
+"description": "Coverage B - Unscheduled Structures",
+"publicID": "EH_UnscheduledStructuresCovB",
+"updated": false,
+"codeIdentifier": "EH_UnscheduledStructuresCovB",
+"terms": [],
+"referenceCode": "UnscheduledStructuresCovB",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_SectionI",
+"coverageCategoryDisplayName": "Section I Coverage",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Refrigerated Property",
+"required": false,
+"selected": false,
+"description": "Endorsement",
+"publicID": "EH_RefrigeratedProperty",
+"updated": false,
+"codeIdentifier": "EH_RefrigeratedProperty",
+"terms": [],
+"referenceCode": "RefrigeratedProperty",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_PersonalProtection",
+"coverageCategoryDisplayName": "Personal Protection",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Earthquake",
+"required": false,
+"selected": false,
+"description": "Endorsement",
+"publicID": "EH_Earthquake",
+"updated": false,
+"codeIdentifier": "EH_Earthquake",
+"terms": [],
+"referenceCode": "Earthquake",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_Home",
+"coverageCategoryDisplayName": "Home",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Equipment Breakdown ",
+"required": false,
+"selected": false,
+"description": "Endorsement",
+"publicID": "EH_EquipBreakdownCov",
+"updated": false,
+"codeIdentifier": "EH_EquipBreakdownCov",
+"terms": [],
+"referenceCode": "EquipBreakdownCov",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_Home",
+"coverageCategoryDisplayName": "Home",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Mine Subsidence",
+"required": false,
+"selected": false,
+"description": "Endorsement",
+"publicID": "EH_MineSubCov",
+"updated": false,
+"codeIdentifier": "EH_MineSubCov",
+"terms": [],
+"referenceCode": "MineSubCov",
+"hasTerms": false,
+"isValid": true,
+"coverageCategoryCode": "EH_Home",
+"coverageCategoryDisplayName": "Home",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Ordinance Or Law",
+"required": false,
+"selected": false,
+"description": "Endorsment",
+"publicID": "EH_OrdinanceCov",
+"updated": false,
+"codeIdentifier": "EH_OrdinanceCov",
+"terms": [],
+"referenceCode": "OrdinanceCov",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_Home",
+"coverageCategoryDisplayName": "Home",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Actual Cash Value Cost Coverage For Windstorm And Hail ",
+"required": false,
+"selected": false,
+"description": "Endorsement",
+"publicID": "EH_RoofActualCashValueCostCovWindHail",
+"updated": false,
+"codeIdentifier": "EH_RoofActualCashValueCostCovWindHail",
+"terms": [],
+"referenceCode": "RoofActualCashValueCostCovWindHail",
+"hasTerms": false,
+"isValid": true,
+"coverageCategoryCode": "EH_Home",
+"coverageCategoryDisplayName": "Home",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Sewer Back-Up, Septic Back-Up, And Sump Overflow",
+"required": false,
+"selected": false,
+"description": "Endorsement",
+"publicID": "EH_SewerSepticSumpCov",
+"updated": false,
+"codeIdentifier": "EH_SewerSepticSumpCov",
+"terms": [],
+"referenceCode": "SewerSepticSumpCov",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_Home",
+"coverageCategoryDisplayName": "Home",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "New Dwelling Under Construction",
+"required": false,
+"selected": false,
+"description": "Endorsement",
+"publicID": "EH_UnderConstructionCov",
+"updated": false,
+"codeIdentifier": "EH_UnderConstructionCov",
+"terms": [],
+"referenceCode": "UnderConstructionCov",
+"hasTerms": false,
+"isValid": true,
+"coverageCategoryCode": "EH_Home",
+"coverageCategoryDisplayName": "Home",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Jewelry, Gemstones, Watches, And Furs",
+"required": false,
+"selected": false,
+"description": "Endorsement",
+"publicID": "EH_JewelryGemCov",
+"updated": false,
+"codeIdentifier": "EH_JewelryGemCov",
+"terms": [],
+"referenceCode": "JewelryGemCov",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_PersonalBelongings",
+"coverageCategoryDisplayName": "Personal Belongings",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Landlord's",
+"required": false,
+"selected": false,
+"description": "Endorsement",
+"publicID": "EH_LandlordCov",
+"updated": false,
+"codeIdentifier": "EH_LandlordCov",
+"terms": [],
+"referenceCode": "LandlordCov",
+"hasTerms": true,
+"isValid": true,
+"coverageCategoryCode": "EH_PersonalBelongings",
+"coverageCategoryDisplayName": "Personal Belongings",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+},
+{
+"name": "Personal Property Increased Special Limits",
+"required": false,
+"selected": false,
+"description": "Endorsement",
+"publicID": "EH_NamedPerilIncCovC",
+"updated": false,
+"codeIdentifier": "EH_NamedPerilIncCovC",
+"terms": [],
+"referenceCode": "NamedPerilIncCovC",
+"hasTerms": false,
+"isValid": true,
+"coverageCategoryCode": "EH_PersonalBelongings",
+"coverageCategoryDisplayName": "Personal Belongings",
+"premium": {
+"currency": "usd",
+"amount": 0
+}
+}
+]
+}
+}
+],
+"uwquestionSets": [],
+"preQualQuestionSets": [],
+"modifiers": [],
+"primaryNamedInsured": {
+"fixedId": 601,
+"publicID": "e1p-pc:601",
+"person": {
+"firstName": "REYNA",
+"lastName": "SUZUKI",
+"dateOfBirth": {
+"year": 1993,
+"month": 7,
+"day": 4
+},
+"displayName": "REYNA SUZUKI",
+"publicID": "e1p-pc:1584536803274",
+"contactAddresses": [],
+"addressBookUID": "AB1005",
+"primaryAddress": {
+"usagePurposes": [
+{
+"addressUsage": "mailing",
+"addressPurpose": "primary"
+},
+{
+"addressUsage": "residential",
+"addressPurpose": "primary"
+}
+],
+"state": "FL",
+"country": "US",
+"displayName": "822 E Washington Ave, Madison, WI 53718",
+"publicID": "e1p-pc:3301",
+"city": "Madison",
+"postalCode": "53718",
+"addressLine1": "8223 VINELAND AVE",
+"addressType": "home"
+},
+"partnerCode": "AFI"
+}
+},
+"secondaryNamedInsured": {
+"publicID": "e1p-pc:5",
+"fixedId": 5,
+"person": {
+"middleName": "S",
+"dateOfBirth": {
+"day": 2,
+"year": 1968,
+"month": 8
+},
+"lastName": "DRURY",
+"licenseNumber": "D10501495",
+"firstName": "MARK",
+"maritalStatus": "M",
+"licenseState": "AZ",
+"cellNumber": "8012430227",
+"publicID": "zv4zHr1578323906632",
+"addressBookUID": "10880064",
+"primaryAddress": {
+"usagePurposes": [
+{
+"addressUsage": "mailing",
+"addressPurpose": "primary"
+},
+{
+"addressUsage": "residential",
+"addressPurpose": "primary"
+}
+],
+"publicID": "e1p-pc:3256",
+"country": "US",
+"city": "Mesa1",
+"postalCode": "84101-3233",
+"state": "AZ",
+"addressType": "home",
+"addressLine1": "11211 N Signal Butte Rd Lot 33"
+},
+"contactAddresses": [],
+"partnerCode": "AFI",
+"homeNumber": "4356475812",
+"displayName": "secondary insured"
+}
+}
+}
+},
+"priorSliceChangeLog": {
+"branchID": "Some branch Id",
+"sliceStartDate": "2020-03-21"
+}
+},
+"Geo": {
+"status" : {
+"code" : 200,
+"message" : "OK"
+},
+"type" : "GIS",
+"key" : "a5fcb902-697d-4da5-a394-39a1a90bc204",
+"priorKey" : "",
+"timestamp" : "2020-08-17T15:12:15+00:00",
+"jobNumber" : "0000097796",
+"branchID" : "601",
+"sliceDate" : "2020-04-08",
+"dataIdentifier" : {
+"sourceSystem" : "E1PC",
+"productLine" : "TBD-PL?",
+"policyType" : "PPA",
+"partnerNumber" : "529",
+"accountNumber" : "52910",
+"underwritingCompany" : "TBD-UWCO"
+},
+"geoRecords" : [
+{
+"assignment" : {
+"addressLine1" : "1002 W 3Rd St",
+"addressLine2" : null,
+"city" : "Alexandria",
+"state" : "IN",
+"zip" : "46001",
+"integrationId" : "12345"
+},
+"source" : {
+"sourceType" : "GIS",
+"sourceVendor" : "Address Broker"
+},
+"zip4" : "2120",
+"centroidUsed" : false,
+"geoCodePointer" : null,
+"latitude" : 40.256673,
+"longitude" : -85.690591,
+"censusBlock" : "180950105002052",
+"ratingTerritory" : "43",
+"checkDigit" : true,
+"fireProtectionClassCd" : null,
+"quakeZone" : "1",
+"county" : "Madison",
+"deliveryPointBarCode" : "02",
+"locationQualityCode" : "AP05",
+"fipsCode" : "${Input#fipsId}",
+"matchCode" : "S80",
+"msaNumber" : null,
+"quakeFaultId" : null,
+"floodPanel" : null,
+"quakeFaultDistance" : 99999,
+"floodZone" : null,
+"floodSfha" : null,
+"fireDistrict" : null,
+"municipality" : null,
+"sra" : null,
+"fireBates" : null,
+"tornadoScale" : null,
+"tornadoPercentile" : null,
+"hailScale" : 3430,
+"hailPercentile" : 0,
+"shoreLineDistance" : 99999,
+"windPool" : null,
+"landSlide" : "22",
+"liquefaction" : null,
+"subsidence" : null,
+"slope" : 9.99999,
+"slopeRange" : null,
+"buildingCodeEffectivenessGradeCd" : null,
+"disasterDnq" : null,
+"isoTerritory" : 43,
+"aterritory" : 1,
+"hoTerritory" : 1,
+"exposure" : null,
+"moldTerritory" : null,
+"geoFireTax" : null,
+"geoPoliceTax" : null,
+"houseNumber" : "1002",
+"streetDirectionPre" : "W",
+"streetDirectionPost" : "",
+"streetName" : "3rd",
+"streetType" : "St",
+"unitNumber" : "",
+"geoAspect" : "0",
+"geoSinkHole" : null,
+"geoDrought" : "0",
+"geoWfFireStDist" : "999999",
+"geoWfFireStationType" : 0,
+"geoWindScore" : "0",
+"geolulcScore" : 0,
+"geoSlopeScore" : "0",
+"geopctForest" : "0",
+"geopctShrub" : "0",
+"geowfScore" : 0,
+"geopctRock" : "0",
+"geoRetroQuake" : "1",
+"riskTax" : null,
+"catZone" : 9999,
+"populationDensity" : 0.7387535053,
+"geoInsScore" : 849.692307,
+"childrenUnder18Percent" : 0.4453125,
+"rmsWind" : 21.6,
+"gridId" : 2047139,
+"cbGroupId2010" : "180950105002",
+"geowbdRegion" : null,
+"geoWindSpeed" : null,
+"geoMitiExposure" : null,
+"legacyReturnCode" : 1,
+"legacyScrubCode" : 0,
+"pbKey" : "P00008BC9UC4",
+"frpRefId" : "NA",
+"frpRiskType" : "NA",
+"frpRisk50" : 0,
+"protectionClass" : null,
+"keyTown" : null,
+"suburbanCode" : null,
+"distanceToWaterSource" : null,
+"fireStationDetails" : {
+"PbKey" : "P00008BC9UC4",
+"PlaceCode" : null,
+"PlaceName" : null,
+"Fs1DepartmentId" : "110160",
+"Fs1DepartmentType" : "Mostly Career",
+"Fs1StationId" : "51960",
+"Fs1DriveTimeAmPeak" : "3.41667",
+"Fs1DriveTimePmPeak" : "3.3",
+"Fs1DriveTimeOffPeak" : "3.15",
+"Fs1DriveTimeNight" : "3.08333",
+"Fs1DriveDistance" : "1.35832",
+"Fs1DriveTimeMean" : "3.2375",
+"Fs2DepartmentId" : "94235",
+"Fs2DepartmentType" : "Volunteer",
+"Fs2StationId" : "51641",
+"Fs2DriveTimeAmPeak" : "10.8833",
+"Fs2DriveTimePmPeak" : "10.8333",
+"Fs2DriveTimeOffPeak" : "10.35",
+"Fs2DriveTimeNight" : "10.05",
+"Fs2DriveDistance" : "6.56976",
+"Fs2DriveTimeMean" : "10.52915",
+"Fs3DepartmentId" : "101921",
+"Fs3DepartmentType" : "Volunteer",
+"Fs3StationId" : "52378",
+"Fs3DriveTimeAmPeak" : "15.2167",
+"Fs3DriveTimePmPeak" : "15.0167",
+"Fs3DriveTimeOffPeak" : "14.8333",
+"Fs3DriveTimeNight" : "14.7167",
+"Fs3DriveDistance" : "7.46577",
+"Fs3DriveTimeMean" : "14.94585",
+"NearestWaterBody" : "1271"
+},
+"waterGrid" : 0,
+"sinkholeInEligible" : 0,
+"hurricaneInEligible" : 0,
+"wildfireInEligible" : 0,
+"capping" : 0,
+"moratorium" : 0,
+"coastalCentroidDNQ" : 0,
+"wildfireCentroidDNQ" : 0,
+"deductibleGroup" : 1,
+"locationID" : "786767",
+"eqZone" : 1,
+"wfThreshold" : -1,
+"distanceToShorelineDNQ" : 0,
+"thresholdKey" : 0,
+"exactMatch" : true,
+"zipCentroidMatch" : false
+}
+]
+}
+}

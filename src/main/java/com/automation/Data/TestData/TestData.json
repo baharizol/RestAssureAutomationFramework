@@ -1,0 +1,24 @@
+{
+  "TestData": {
+    "DataSet1": {
+      "ratingDate": "2020-04-08",
+      "rateAsOfDate": "E1P-PC",
+      "yearRoofInstalled": "2002",
+      "roofType": "Hello",
+      "state": "IL",
+      "yearBuilt": "2020",
+      "fipsCode": "7124513584",
+      "locationID": "HO3"
+    },
+    "DataSet2": {
+      "ratingDate": "2020-04-08",
+      "rateAsOfDate": "E1P-PC",
+      "yearRoofInstalled": "2002",
+      "roofType": "Hello",
+      "state": "IL",
+      "yearBuilt": "2020",
+      "fipsCode": "7124513584",
+      "locationID": "HO3"
+    }
+  }
+}
